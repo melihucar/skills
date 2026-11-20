@@ -1,0 +1,17 @@
+{
+  "name": "melihucar-skills",
+  "owner": { "name": "Melih Uçar" },
+  "metadata": {
+    "description": "Agent skills for auditing and maintaining codebases.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "slop-hunt",
+      "description": "Audit a repository, path or branch diff for slop and report findings ranked by harm and certainty.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/slop-hunt"]
+    }
+  ]
+}
